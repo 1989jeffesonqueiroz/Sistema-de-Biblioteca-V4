@@ -73,6 +73,19 @@ emprestimo_livro (id_emprestimo, id_livro)
 |    Senha      |Varchar,50    |     Sim     |          |Senha do usuário que está logando                       |
 |    Tipo       |Varchar       |     Sim     |          |Contém os dados se a conta logada é Admin ou Funcionário|
 
+##### Tabela Autor
+
+|Identificador  |Tamanho       |Obrigatório  |Chave     |Descrição                                               |
+|:-------------:|:------------:|:-----------:|:--------:|:-------------------------------------------------------|
+|     ID        |Integer       |     Sim     | PK       |Chave Primária da tabela, Auto_Increment                |
+|    Nome       |Varchar, 100  |     Sim     |          |Nome do autor                                           |
+|    id_login   |integer       |     Sim     |          |Referência à tabela login                               |
+
+##### Tabela Livro
+
+
+
+
 ## Sistema de Biblioteca
 
 O presente projeto é voltado para a área educacional, em específico para as bibliotecas. O intuito é proporcionar o gerenciamento do empréstimo de livros de forma similar ao software PERGAMUM já existente nas universidades públicas do estado.
