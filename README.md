@@ -66,19 +66,12 @@ emprestimo_livro (id_emprestimo, id_livro)
 
 ##### Tabela Login
 
-|Identificador|Tamanho     |Obrigatório|Chave |Descrição                                |
-|:-------------:|:------------:|:-----------:|:------:|:-----------------------------------------|
-|     ID        |Integer     |     Sim   | PK   |Chave Primária da tabela, Auto_Increment |
-|    Nome       |Varchar, 100|     Sim   |      |Nome do usuário que está logando         |
-|    Senha      |Varchar,50  |     Sim   |      |Senha do usuário que está logando        |
-|    Tipo       |Varchar     |     Sim   |      |Contém os dados se a conta logada é Admin ou Funcionário|
-
-#### Tabela Autor
-
-|Identificador|Tamanho|Obrigatório|Chave|Descrição|
-|:-------------:|:-------:|:-----------:|:-----:|:---------|
-|ID             |Integer  |Sim          |PK     |Chave Primária da tabela, Auto_Increment|
-
+|Identificador  |Tamanho       |Obrigatório  |Chave     |Descrição                                               |
+|:-------------:|:------------:|:-----------:|:--------:|:-------------------------------------------------------|
+|     ID        |Integer       |     Sim     | PK       |Chave Primária da tabela, Auto_Increment                |
+|    Nome       |Varchar, 100  |     Sim     |          |Nome do usuário que está logando                        |
+|    Senha      |Varchar,50    |     Sim     |          |Senha do usuário que está logando                       |
+|    Tipo       |Varchar       |     Sim     |          |Contém os dados se a conta logada é Admin ou Funcionário|
 
 ## Sistema de Biblioteca
 
