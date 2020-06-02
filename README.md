@@ -83,6 +83,14 @@ emprestimo_livro (id_emprestimo, id_livro)
 
 ##### Tabela Livro
 
+|Identificador  |Tamanho       |Obrigatório  |Chave     |Descrição                                               |
+|:-------------:|:------------:|:-----------:|:--------:|:-------------------------------------------------------|
+|     ID        |Integer       |     Sim     | PK       |Chave Primária da tabela, Auto_Increment                |
+|    Título      |Varchar, 100  |     Sim     |         |Nome do livro                                           |
+|    Volume      |Varchar,50    |     Sim     |          |Senha do usuário que está logando                       |
+|    Ano      |Varchar       |     Sim     |          |Contém os dados se a conta logada é Admin ou Funcionário|
+|Id_login     |Integer|Sim|FK|Referencia à tabela login|
+
 
 
 
